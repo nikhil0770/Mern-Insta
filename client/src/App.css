@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+* {
+  margin: 0;
+}
+
+a {
+  color: black !important;
+}
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+li {
+  font-family: sans-serif;
+  object-fit: contain;
+}
+.logo {
+  font-family: "Grand Hotel", cursive;
+  margin-left: 10px;
+}
+
+.button_class {
+  margin: 15px auto 25px auto;
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 238, 238) !important;
+  color: black !important;
+}
+.button_profile {
+  margin: 15px auto 25px auto;
+  align-items: center;
+  background-color: rgb(238, 238, 238) !important;
+  color: black !important;
+}
+
+.button_class:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.button_profile:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.signin_card {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin: 50px auto 0px auto;
+}
+
+.card {
+  padding: 15px 20px 30px 20px;
+  text-align: center;
+}
+
+.input-field input[type="email"]:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.navurl {
+  max-width: 400px;
+}
+
+.prof_pic {
+  object-fit: cover;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 80px;
+}
+.info_profile {
+  display: flex;
+  justify-content: space-evenly;
+}
+.info_profile > div {
+  margin-right: 8px;
+  color: rgb(56, 58, 58);
+  text-align: center;
+}
+
+.description_prof {
+  padding: 5px;
+  margin-left: 20px;
+}
+.bold_details {
+  font-weight: 600;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  flex-direction: row;
+  margin: auto;
+}
+.images > img {
+  min-width: 250px;
+  max-width: 400px;
+  height: 200px;
+}
+.photos {
+  width: 30%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.home_card {
+  width: 450px;
+  padding: 5px;
+  align-items: center;
+  text-align: justify;
+  margin: 20px auto 20px auto;
+}
+
+.image_home {
+  object-fit: contain;
+  margin: auto;
+  max-height: 350px;
+}
+.like {
+  color: red;
+}
+.file-field > .btn {
+  display: flex;
+  align-items: center;
+  background-color: blue !important;
+  color: white !important;
+}
+
+.post_card {
+  max-width: 400px;
+  margin: 30px auto 10px auto;
+}
+.post_card > .button_class {
+  margin-bottom: 0px;
+}
+
+.file-field {
+  margin-top: 10px;
+}
+
+#toast-container {
+  top: 60px !important;
+  right: 20px !important;
+  left: auto !important;
+}
